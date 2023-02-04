@@ -1,0 +1,67 @@
+{
+  "id" : "https://iwakamitoshiro.github.io/mymuseum/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in iwakamitoshiro/mymuseum project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 850,
+    "id" : "https://iwakamitoshiro.github.io/mymuseum/images/window/canvas/",
+    "label" : {
+      "none" : [ "window" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://iwakamitoshiro.github.io/mymuseum/images/window/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://iwakamitoshiro.github.io/mymuseum/images/window/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 27,
+              "height" : 23
+            }, {
+              "width" : 54,
+              "height" : 46
+            }, {
+              "width" : 107,
+              "height" : 91
+            }, {
+              "width" : 213,
+              "height" : 182
+            }, {
+              "width" : 425,
+              "height" : 363
+            }, {
+              "width" : 850,
+              "height" : 725
+            } ],
+            "profile" : "level0",
+            "width" : 850,
+            "id" : "https://iwakamitoshiro.github.io/mymuseum/images/window",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 725
+          } ],
+          "format" : "image/jpeg",
+          "width" : 850,
+          "id" : "https://iwakamitoshiro.github.io/mymuseum/images/window/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 725
+        },
+        "target" : "https://iwakamitoshiro.github.io/mymuseum/images/window/canvas/"
+      } ]
+    } ],
+    "height" : 725
+  } ]
+}
